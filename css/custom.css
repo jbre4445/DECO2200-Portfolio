@@ -4,7 +4,7 @@ Modify this file to your hearts content and make your website look awesome!*/
 
 
 body{
-	background-color: #ebebeb;
+	background-color: #fff;
 	padding-top: 80px;
 }
 
@@ -15,7 +15,7 @@ body{
   padding-bottom: 100px;
   width:100%;
   min-height: 100vh;
-  background: url('../img/common/homepage_bg.jpg') no-repeat center center fixed;
+  background: url(aa) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -49,7 +49,7 @@ a.navbar-brand{
 
 	a.float-nav-link{
 		font-family: 'Lato', Sans-Serif;
-		color: #595959;
+		color: #000000;
 		font-size: 14px;
 		font-weight: 600;
 		text-align: left;
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5, h6 {
 
 	h3{
 		text-transform: uppercase;
-		color: #a49727;
+		color: #373333;
 		letter-spacing: -0.5px;
 	}
 
@@ -109,16 +109,18 @@ span.img-caption{
 
 .welcome-button-container{
 	margin-top: 20px;
+	margin: auto;
 }
 
 .welcome-button{
 	background-color: transparent;
-	border-radius: 0px 0px 0px 0px;
+	border-radius: 8px;
 	border: 3px solid #000;
 	font-family:'Montserrat', Sans-Serif;
 	font-size: 15px;
 	color: #000;
 	text-transform: uppercase;
+	margin: auto;
 }
 
 .welcome-button:hover{
@@ -144,7 +146,7 @@ span.img-caption{
 	padding-top: 30px;
 	width: 100%;
 	min-height: 100px;
-	background-color: #989898;
+	background-color: #fff;
 	border-top: 1px solid #727272;
 }
 
